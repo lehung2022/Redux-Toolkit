@@ -28,4 +28,4 @@ const PostsList = () => {
         </section>
     )
 }
-export default PostsList
+export default PostsList;
