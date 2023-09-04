@@ -4,6 +4,7 @@ import ReactionButtons from "./ReactionButtons";
 import { Link } from 'react-router-dom';
 
 const PostsExcerpt = ({ post }) => {
+  
     return (
         <article>
             <h2>{post.title}</h2>
