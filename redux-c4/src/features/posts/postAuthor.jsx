@@ -1,9 +1,12 @@
 import { useSelector } from "react-redux";
 import { selectAllUsers } from "../users/usersSlice";
+import PropTypes from 'prop-types'
 
 const PostAuthor = ({ userId }) => {
 
-    
+    PostAuthor.propTypes = {
+        userId: PropTypes.number.isRequired
+    }
 
 
     const users = useSelector(selectAllUsers)

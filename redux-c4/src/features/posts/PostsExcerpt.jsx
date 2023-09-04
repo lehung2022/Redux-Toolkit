@@ -2,9 +2,14 @@ import PostAuthor from "./PostAuthor";
 import TimeAgo from "./TimeAgo";
 import ReactionButtons from "./ReactionButtons";
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types'
 
 const PostsExcerpt = ({ post }) => {
-  
+    
+    PostsExcerpt.propTypes = {
+        post: PropTypes.object.isRequired
+    }
+
     return (
         <article>
             <h2>{post.title}</h2>

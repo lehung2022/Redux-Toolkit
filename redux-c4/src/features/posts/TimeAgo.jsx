@@ -1,7 +1,9 @@
 import { parseISO, formatDistanceToNow } from 'date-fns';
-
+import PropTypes from 'prop-types';
 const TimeAgo = ({ timestamp }) => {
- 
+    TimeAgo.propTypes = {
+        timestamp: PropTypes.string.isRequired
+    }
 
     let timeAgo = ''
     if (timestamp) {

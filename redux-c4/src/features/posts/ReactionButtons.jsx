@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { reactionAdded } from "./postsSlice";
-
+import PropTypes from 'prop-types'
 const reactionEmoji = {
     thumbsUp: '👍',
     wow: '😮',
@@ -11,7 +11,9 @@ const reactionEmoji = {
 
 const ReactionButtons = ({ post }) => {
     const dispatch = useDispatch()
-    
+    ReactionButtons.propTypes = {
+        post: PropTypes.object.isRequired
+    }
 
     const reactionButtons = Object.entries(reactionEmoji).map(([name, emoji]) => {
         return (
