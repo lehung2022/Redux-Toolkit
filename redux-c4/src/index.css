@@ -7,13 +7,13 @@
 html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: white;
-  color: #a1a2b4;
+  color: #3f427d;
 }
 
 body {
   min-height: 100vh;
   font-size: 1.5rem;
-  background-image: url(assets/sword-of-light.jpeg);
+  /* background-image: url(assets/sword-of-light.jpeg); */
 }
 
 input,
@@ -105,7 +105,7 @@ textarea {
 .postCredit a, 
 .postCredit a:visited {
   margin-right: 0.5rem;
-  color: black;
+  color: #35135a;
 }
 
 .postCredit a:hover, 
