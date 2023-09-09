@@ -6,13 +6,15 @@
 
 html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: white;
-  color: #000;
+  background-color: #6b1397;
+  color: #8ba297;
+
 }
 
 body {
   min-height: 100vh;
   font-size: 1.5rem;
+  background-image: url("./assets/aa-saam-vs-lei-yung.jpg");
 }
 
 input,
@@ -28,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: purple;
+  background-color: #281ba2;
   color: whitesmoke;
   position: sticky;
   top: 0;
